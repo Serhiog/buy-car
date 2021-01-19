@@ -1,6 +1,6 @@
 .cars {
     background-color : #F4F4F4;
-    background-image : url("../img/no-problem-top.png");
+    background-image : url("img/no-problem-top.png");
     background-repeat: space;
 
     &__inner {
@@ -31,7 +31,7 @@
         &::after {
             content         : "";
             position        : absolute;
-            background-image: url("../img/decor-cars.png");
+            background-image: url("img/decor-cars.png");
             width           : 200px;
             height          : 18px;
             left: 42%;

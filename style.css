@@ -1029,7 +1029,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getprice__pics {
-  background-image: url("../img/getprice-back.png");
+  background-image: url("img/getprice-back.png");
   background-repeat: no-repeat;
   width: 460px;
   height: 580px;
@@ -1201,7 +1201,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cars {
   background-color: #F4F4F4;
-  background-image: url("../img/no-problem-top.png");
+  background-image: url("img/no-problem-top.png");
   background-repeat: space;
 }
 
@@ -1235,7 +1235,7 @@ h1, h2, h3, h4, h5, h6 {
 .cars__wrapper::after {
   content: "";
   position: absolute;
-  background-image: url("../img/decor-cars.png");
+  background-image: url("img/decor-cars.png");
   width: 200px;
   height: 18px;
   left: 42%;
@@ -1424,7 +1424,7 @@ h1, h2, h3, h4, h5, h6 {
 .fast-sale__item--1::before {
   content: "";
   position: absolute;
-  background-image: url("../img/1.svg");
+  background-image: url("img/1.svg");
   width: 40px;
   height: 53px;
   top: -80px;
@@ -1433,7 +1433,7 @@ h1, h2, h3, h4, h5, h6 {
 .fast-sale__item--2::before {
   content: "";
   position: absolute;
-  background-image: url("../img/2.svg");
+  background-image: url("img/2.svg");
   background-repeat: no-repeat;
   width: 40px;
   height: 53px;
@@ -1443,7 +1443,7 @@ h1, h2, h3, h4, h5, h6 {
 .fast-sale__item--3::before {
   content: "";
   position: absolute;
-  background-image: url("../img/3.svg");
+  background-image: url("img/3.svg");
   background-repeat: no-repeat;
   width: 40px;
   height: 53px;
@@ -1453,7 +1453,7 @@ h1, h2, h3, h4, h5, h6 {
 .fast-sale__item--4::before {
   content: "";
   position: absolute;
-  background-image: url("../img/4.svg");
+  background-image: url("img/4.svg");
   background-repeat: no-repeat;
   width: 40px;
   height: 53px;
@@ -1486,7 +1486,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom-form {
-  background-image: url("../img/bottom-car.jpg");
+  background-image: url("img/bottom-car.jpg");
   background-repeat: no-repeat;
   padding-left: 50px;
   padding-right: 50px;
@@ -1689,7 +1689,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__logo {
-  background-image: url("../img/footer-logo.svg");
+  background-image: url("img/footer-logo.svg");
   background-repeat: no-repeat;
   width: 105px;
   height: 90px;
