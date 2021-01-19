@@ -1,0 +1,110 @@
+.no-risk {
+
+    &__inner {
+        @include flex;
+        justify-content: center;
+        padding-top    : 105px;
+    }
+
+    &__background {
+        background-image : url("img/norisk.png");
+        width            : 846px;
+        height           : 618px;
+        background-repeat: no-repeat;
+        margin-right     : 100px
+    }
+
+    &__content {}
+
+    &__content-inner {
+        @include flex;
+        flex-direction: column;
+        align-items   : flex-start;
+    }
+
+    &__title {
+        font-family            : $light;
+        background             : linear-gradient(91.17deg, #EB5D56 0.01%, #390A40 100.01%);
+        font-size              : 32px;
+        line-height            : 46px;
+        text-transform         : uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align             : center;
+        font-weight            : bold;
+        margin-bottom          : 142px
+    }
+
+    &__list {
+        @include flex;
+        flex-wrap: wrap;
+        max-width: 700px
+    }
+
+    &__item {
+        @include flex;
+        flex-direction: column;
+        align-items   : flex-start;
+        font-family   : Roboto Condensed;
+        font-size     : 24px;
+        line-height   : 34px;
+        color         : #4F4F4F;
+        max-width     : 290px;
+        margin-bottom : 118px;
+        position      : relative;
+    }
+
+    &__item--money {
+        ::before {
+            content         : "";
+            position        : absolute;
+            background-image: url("img/money.svg");
+            width           : 52px;
+            height          : 52px;
+            top: -73px;
+        }
+    }
+
+    &__item--insure {
+        ::before {
+            content         : "";
+            position        : absolute;
+            background-image: url("img/insure.svg");
+            width           : 52px;
+            height          : 52px;
+            top: -73px;
+        }
+    }
+
+    &__item--comission {
+        ::before {
+            content         : "";
+            position        : absolute;
+            background-image: url("img/commision.svg");
+            width           : 52px;
+            height          : 52px;
+            top: -73px;
+        }
+    }
+
+    &__item--fast {
+        ::before {
+            content         : "";
+            position        : absolute;
+            background-image: url("img/fast.svg");
+            width           : 52px;
+            height          : 52px;
+            top: -73px;
+        }
+    }
+
+    &__about {
+        font-family: Roboto;
+        font-style : normal;
+        font-weight: 300;
+        font-size  : 16px;
+        line-height: 24px;
+        color      : #4F4F4F;
+        margin-top : 14px;
+    }
+}

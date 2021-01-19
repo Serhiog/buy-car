@@ -1,0 +1,85 @@
+.car-types {
+
+
+    &__inner {
+        max-width  : 1280px;
+        margin     : 0 auto;
+        padding-top: 110px;
+    }
+
+    &__title {
+        display                : block;
+        font-family            : $light;
+        background             : linear-gradient(91.17deg, #EB5D56 0.01%, #390A40 100.01%);
+        font-size              : 32px;
+        line-height            : 46px;
+        text-transform         : uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align             : center;
+        font-weight            : bold;
+    }
+
+    &__list {
+        @include flex;
+        margin-top: 350px;
+        justify-content: space-around;
+    }
+
+    &__item {
+        font-family  : Roboto Condensed;
+        font-size    : 24px;
+        line-height  : 34px;
+        color        : #4F4F4F;
+        border-radius: 24px;
+        position     : relative;
+
+        &::after {
+            content   : '';
+            position  : absolute;
+            width     : 200px;
+            height    : 2px;
+            left      : -54px;
+            background: linear-gradient(89.72deg, rgba(235, 93, 86, 0) 0.24%, #EB5D56 28.23%, #390A40 73.32%, rgba(57, 10, 64, 0) 99.24%);
+        }
+    }
+
+    &__item--truck {
+        &::before {
+            content          : '';
+            position         : absolute;
+            width            : 360px;
+            height           : 250px;
+            background-image : url("img/truck.png");
+            background-repeat: no-repeat;
+            bottom           : 59px;
+            right            : -115px;
+        }
+    }
+
+    &__item--car {
+        &::before {
+            content          : '';
+            position         : absolute;
+            width            : 260px;
+            height           : 254px;
+            background-image : url("img/sport.png");
+            background-repeat: no-repeat;
+            bottom           : -37px;
+            right            : -66px;
+        }
+    }
+
+    &__item--spec {
+        &::before {
+            content          : '';
+            position         : absolute;
+            width            : 353px;
+            height           : 310px;
+            background-image : url("img/spec.png");
+            background-repeat: no-repeat;
+            bottom           : -3px;
+            right            : -141px;
+        }
+    }
+}

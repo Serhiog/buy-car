@@ -1,0 +1,50 @@
+.getprice {
+    background-image : url("img/getprice.png");
+    background-repeat: no-repeat;
+    margin-top       : 70px;
+
+    &__inner {
+        max-width: 1120px;
+        @include flex;
+        margin: 0 auto
+    }
+
+    &__about {
+        @include flex;
+        flex-direction: column;
+        align-items   : flex-start;
+        max-width     : 510px;
+        margin-right  : 150px;
+    }
+
+    &__title {
+        font-family            : $light;
+        background             : linear-gradient(91.17deg, #EB5D56 0.01%, #390A40 100.01%);
+        font-size              : 32px;
+        line-height            : 46px;
+        text-transform         : uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight            : bold;
+        margin-bottom          : 34px;
+    }
+
+    &__text {
+        font-family  : Roboto Condensed;
+        font-size    : 24px;
+        line-height  : 34px;
+        color        : #4F4F4F;
+        margin-bottom: 83px;
+    }
+
+    &__btn {}
+
+    &__pics {
+        background-image : url("../img/getprice-back.png");
+        background-repeat: no-repeat;
+        width            : 460px;
+        height           : 580px;
+    }
+}
+
+.btn {}

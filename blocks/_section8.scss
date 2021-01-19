@@ -1,0 +1,94 @@
+.bottom-form {
+    background-image : url("../img/bottom-car.jpg");
+    background-repeat: no-repeat;
+    padding-left     : 50px;
+    padding-right    : 50px;
+    padding-top      : 78px;
+    padding-bottom   : 40px;
+
+    &__inner {
+        max-width: 770px;
+    }
+
+    &__title {
+        @include m0p0;
+        font-family   : Roboto Condensed;
+        font-weight   : bold;
+        font-size     : 32px;
+        line-height   : 46px;
+        text-transform: uppercase;
+        color         : #FFFFFF;
+    }
+
+    &__about {
+        font-family  : Roboto Condensed;
+        font-size    : 24px;
+        line-height  : 34px;
+        color        : #BDBDBD;
+        margin-top   : 17px;
+        margin-bottom: 74px
+    }
+
+    &__form {
+        @include flex;
+        flex-wrap: wrap;
+    }
+
+    &__form-name {
+        display       : inline-block;
+        font-family   : Roboto Condensed;
+        font-style    : normal;
+        font-weight   : bold;
+        font-size     : 12px;
+        line-height   : 16px;
+        letter-spacing: 0.02em;
+        color         : #FFFFFF;
+        margin-bottom : 12px;
+    }
+
+    &__input {
+        padding-left : 12px;
+        width        : 336px;
+        height       : 48px;
+        background   : #FFFFFF;
+        border-radius: 4px;
+    }
+
+    &__add-photo {
+        padding-right: 30px;
+        margin-top   : 26px;
+        margin-bottom: 34px;
+        font-family  : Roboto Condensed;
+        font-style   : normal;
+        font-weight  : bold;
+        font-size    : 12px;
+        line-height  : 16px;
+        letter-spacing      : 0.02em;
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        margin-bottom: 20px;
+    }
+
+    &__terms {
+        font-family   : Roboto Condensed;
+        font-style    : normal;
+        font-weight   : normal;
+        font-size     : 13px;
+        line-height   : 18px;
+        letter-spacing: 0.5px;
+        color         : #FFFFFF;
+        max-width: 336px;
+    }
+
+    &__wrapper {
+        @include flex;
+        flex-direction: column;
+        align-items   : flex-start;
+    }
+}
+
+.btn {}

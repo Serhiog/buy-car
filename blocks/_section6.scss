@@ -1,0 +1,118 @@
+.cars {
+    background-color : #F4F4F4;
+    background-image : url("../img/no-problem-top.png");
+    background-repeat: space;
+
+    &__inner {
+        max-width     : 1188px;
+        margin        : 0 auto;
+        padding-bottom: 100px;
+        padding-top   : 60px;
+    }
+
+    &__title {
+        font-family            : $light;
+        background             : linear-gradient(91.17deg, #EB5D56 0.01%, #390A40 100.01%);
+        font-size              : 32px;
+        line-height            : 46px;
+        text-transform         : uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight            : bold;
+        margin-bottom          : 34px;
+        text-align             : center;
+        @include m0p0;
+        margin-bottom: 70px;
+    }
+
+    &__wrapper {
+        position: relative;
+
+        &::after {
+            content         : "";
+            position        : absolute;
+            background-image: url("../img/decor-cars.png");
+            width           : 200px;
+            height          : 18px;
+            left: 42%;
+            bottom: -63px;
+        }
+    }
+
+    &__list {
+        @include flex
+    }
+
+    &__item {
+        background-color: #FFFFFF;
+        padding-top     : 20px;
+        padding-right   : 20px;
+        padding-left    : 20px;
+        padding-bottom  : 42px;
+        margin-right    : 24px;
+    }
+
+    &__img {
+        margin-bottom: 35px;
+    }
+
+    &__name {
+        font-family  : Roboto Condensed;
+        font-size    : 24px;
+        line-height  : 24px;
+        color        : #4F4F4F;
+        margin-bottom: 12px;
+    }
+
+    &__props {
+        font-family  : Roboto;
+        font-weight  : 300;
+        font-size    : 16px;
+        line-height  : 24px;
+        color        : #4F4F4F;
+        margin-bottom: 40px;
+    }
+
+    &__prices {
+        @include flex;
+        flex-wrap      : wrap;
+        justify-content: flex-start;
+    }
+
+    &__price-standart {
+        font-family  : Roboto;
+        font-weight  : 300;
+        font-size    : 16px;
+        line-height  : 24px;
+        color        : #4F4F4F;
+        margin-right : 38px;
+        margin-bottom: 7px;
+    }
+
+    &__price-total {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size  : 16px;
+        line-height: 24px;
+        color      : #4F4F4F;
+    }
+
+    &__price-total--color {
+        font-family            : $light;
+        background             : linear-gradient(91.17deg, #EB5D56 0.01%, #390A40 100.01%);
+        font-size              : 26px;
+        line-height            : 24px;
+        text-transform         : uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight            : bold;
+        padding-left           : 13px;
+    }
+
+    &__rub {
+        font-size     : 16px;
+        font-weight   : normal;
+        text-transform: none;
+        margin-left   : 5px;
+    }
+}

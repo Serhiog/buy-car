@@ -1,0 +1,134 @@
+.form-top {
+    background-image : url("img/back-car.png");
+    background-repeat: round;
+    background-size  : 100%;
+
+    @media (max-width: 1320px) {
+        background-image: none;
+    }
+
+    &__inner {
+        @include flex;
+        background     : rgba(16, 15, 15, 0.66);
+        padding-top    : 110px;
+        padding-bottom : 74px;
+        flex-wrap      : wrap;
+        padding-left   : 130px;
+        padding-right  : 100px;
+        justify-content: center
+    }
+
+    &__content {
+        max-width   : 500px;
+        margin-right: 188px;
+
+        @media (max-width: 1320px) {
+            max-width   : none;
+            margin-right: none;
+        }
+    }
+
+    &__input {
+        @include flex(column, flex-start, nowrap, center);
+        max-width    : 400px;
+        background   : rgba(51, 51, 51, 0.6);
+        border-radius: 6px;
+    }
+
+    &__wrapper {
+        padding: 36px 32px;
+    }
+
+    &__title {
+        font-family  : $light;
+        font-size    : 26px;
+        line-height  : 26px;
+        color        : #FFFFFF;
+        margin-bottom: 46px;
+    }
+
+    &__car {
+        font-family   : $light;
+        font-weight   : bold;
+        font-size     : 12px;
+        line-height   : 16px;
+        letter-spacing: 0.02em;
+        color         : #FFFFFF;
+        margin-bottom : 12px;
+        display       : block;
+    }
+
+    &__input-value {
+        padding-left : 12px;
+        background   : #FFFFFF;
+        border       : 1px solid #FCFAE1;
+        box-sizing   : border-box;
+        border-radius: 4px;
+        width        : 336px;
+        height       : 48px;
+    }
+
+    &__tel {
+        font-family   : $light;
+        font-weight   : bold;
+        font-size     : 12px;
+        line-height   : 16px;
+        letter-spacing: 0.02em;
+        margin-bottom : 12px;
+        color         : #FFFFFF;
+        display       : block;
+        margin-top    : 20px;
+    }
+
+    &__input-value--tel {
+        margin-bottom: 34px;
+    }
+
+
+
+    &__btn {
+        margin-bottom: 30px;
+    }
+
+    &__about {
+        font-family   : $light;
+        font-size     : 13px;
+        line-height   : 18px;
+        letter-spacing: 0.5px;
+        color         : #FFFFFF;
+    }
+}
+
+.form-content {
+
+    &__about-top {
+        font-family   : $light;
+        font-family   : Roboto Condensed;
+        font-size     : 18px;
+        line-height   : 18px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color         : #FFFFFF;
+    }
+
+    &__title {
+        font-family   : $light;
+        font-weight   : bold;
+        font-size     : 52px;
+        line-height   : 62px;
+        text-transform: uppercase;
+        color         : #FFFFFF;
+    }
+
+    &__about-bottom {
+        font-family: $light;
+        font-size  : 18px;
+        line-height: 24px;
+        color      : #FFFFFF;
+
+    }
+}
+
+.btn {
+    @extend %btn
+}
