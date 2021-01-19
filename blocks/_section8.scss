@@ -1,6 +1,6 @@
 .bottom-form {
     background-image : url("img/bottom-car.jpg");
-    background-repeat: round($number: 0);
+    background-repeat: round;
     padding-left     : 50px;
     padding-right    : 50px;
     padding-top      : 78px;
@@ -55,14 +55,14 @@
     }
 
     &__add-photo {
-        padding-right: 30px;
-        margin-top   : 26px;
-        margin-bottom: 34px;
-        font-family  : Roboto Condensed;
-        font-style   : normal;
-        font-weight  : bold;
-        font-size    : 12px;
-        line-height  : 16px;
+        padding-right       : 30px;
+        margin-top          : 26px;
+        margin-bottom       : 34px;
+        font-family         : Roboto Condensed;
+        font-style          : normal;
+        font-weight         : bold;
+        font-size           : 12px;
+        line-height         : 16px;
         letter-spacing      : 0.02em;
         text-decoration-line: underline;
 
@@ -81,7 +81,7 @@
         line-height   : 18px;
         letter-spacing: 0.5px;
         color         : #FFFFFF;
-        max-width: 336px;
+        max-width     : 336px;
     }
 
     &__wrapper {
